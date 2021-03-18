@@ -6,4 +6,4 @@ mkdir -p .mvn-repository/
 
 mvn clean package -Dmaven.repo.local=$(pwd)/.mvn-repository
 
-docker build -t sdaschner/maven-jdk14:quarkus-deps-1.5.1-b1 .
+docker build -t ajoyacharyya/maven-jdk14:quarkus-deps-1.5.1-b1 .
