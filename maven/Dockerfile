@@ -1,5 +1,7 @@
 FROM adoptopenjdk/openjdk14-openj9:x86_64-alpine-jre-14_36.1_openj9-0.19.0
 
+
+
 ARG MAVEN_VERSION="3.5.4"
 
 RUN apk add curl
